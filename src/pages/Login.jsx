@@ -65,7 +65,7 @@ const Login = () => {
                 {/* Card */}
                 <div
                     className="rounded-2xl p-8"
-                    style={{ background: 'var(--card-bg)', border: '1px solid var(--card-border)' }}
+                    style={{ background: '#1e293b', border: '1.5px solid #475569', boxShadow: '0 20px 60px rgba(0,0,0,0.4)' }}
                 >
                     {error && (
                         <div
