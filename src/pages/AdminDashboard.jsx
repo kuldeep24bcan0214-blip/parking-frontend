@@ -9,10 +9,10 @@ import toast from 'react-hot-toast';
 
 const mockStats = { totalUsers: 128, totalSlots: 48, availableSlots: 22, totalRevenue: 84500, todayRevenue: 3200, totalBookings: 452 };
 const mockUsers = [
-    { _id: 'u1', name: 'Rahul Sharma', email: 'rahul@campus.edu', role: 'user', vehicleNumber: 'MH 01 AB 1234', createdAt: new Date(Date.now() - 86400000 * 7).toISOString() },
-    { _id: 'u2', name: 'Priya Patel', email: 'priya@campus.edu', role: 'staff', vehicleNumber: 'GJ 05 CD 5678', createdAt: new Date(Date.now() - 86400000 * 14).toISOString() },
-    { _id: 'u3', name: 'Arjun Singh', email: 'arjun@campus.edu', role: 'admin', vehicleNumber: 'DL 10 EF 9012', createdAt: new Date(Date.now() - 86400000 * 30).toISOString() },
-    { _id: 'u4', name: 'Niti Kumar', email: 'niti@campus.edu', role: 'user', vehicleNumber: 'MH 12 GH 3456', createdAt: new Date(Date.now() - 86400000 * 3).toISOString() },
+    { _id: 'u1', name: 'Rahul Sharma', email: 'rahul@jecrcu.edu.in', role: 'user', vehicleNumber: 'MH 01 AB 1234', createdAt: new Date(Date.now() - 86400000 * 7).toISOString() },
+    { _id: 'u2', name: 'Priya Patel', email: 'priya@jecrcu.edu.in', role: 'staff', vehicleNumber: 'GJ 05 CD 5678', createdAt: new Date(Date.now() - 86400000 * 14).toISOString() },
+    { _id: 'u3', name: 'Arjun Singh', email: 'arjun@jecrcu.edu.in', role: 'admin', vehicleNumber: 'DL 10 EF 9012', createdAt: new Date(Date.now() - 86400000 * 30).toISOString() },
+    { _id: 'u4', name: 'Niti Kumar', email: 'niti@jecrcu.edu.in', role: 'user', vehicleNumber: 'MH 12 GH 3456', createdAt: new Date(Date.now() - 86400000 * 3).toISOString() },
 ];
 
 const StatCard = ({ label, value, icon: Icon, color, sub }) => (

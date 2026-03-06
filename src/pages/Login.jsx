@@ -38,8 +38,8 @@ const Login = () => {
 
     return (
         <div
-            className="min-h-screen flex items-center justify-center p-4"
-            style={{ background: 'radial-gradient(ellipse at top left, rgba(99,102,241,0.15) 0%, var(--dark-bg) 60%)' }}
+            className="min-h-screen flex items-center justify-center p-4 relative"
+            style={{ background: 'radial-gradient(ellipse at top left, rgba(99,102,241,0.2) 0%, #0f172a 65%)' }}
         >
             {/* Background decoration */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -65,7 +65,12 @@ const Login = () => {
                 {/* Card */}
                 <div
                     className="rounded-2xl p-8"
-                    style={{ background: '#1e293b', border: '1.5px solid #475569', boxShadow: '0 20px 60px rgba(0,0,0,0.4)' }}
+                    style={{
+                        background: 'linear-gradient(145deg, #1e2d45 0%, #1a2640 100%)',
+                        border: '1.5px solid #4f6080',
+                        boxShadow: '0 25px 60px rgba(0,0,0,0.5), 0 0 0 1px rgba(99,102,241,0.08)',
+                        borderTop: '1.5px solid #6366f1',
+                    }}
                 >
                     {error && (
                         <div
@@ -84,9 +89,9 @@ const Login = () => {
                             style={{ background: 'rgba(99,102,241,0.08)', border: '1px solid rgba(99,102,241,0.2)' }}
                         >
                             <p className="font-semibold" style={{ color: '#818cf8' }}>Demo Credentials</p>
-                            <p style={{ color: 'var(--text-secondary)' }}>Admin: admin@campus.edu</p>
-                            <p style={{ color: 'var(--text-secondary)' }}>Staff: staff@campus.edu</p>
-                            <p style={{ color: 'var(--text-secondary)' }}>User: user@campus.edu</p>
+                            <p style={{ color: 'var(--text-secondary)' }}>Admin: admin@jecrcu.edu.in</p>
+                            <p style={{ color: 'var(--text-secondary)' }}>Staff: staff@jecrcu.edu.in</p>
+                            <p style={{ color: 'var(--text-secondary)' }}>User: user@jecrcu.edu.in</p>
                             <p style={{ color: 'var(--text-secondary)' }}>Password: password123</p>
                         </div>
 
@@ -100,7 +105,7 @@ const Login = () => {
                                     name="email"
                                     value={form.email}
                                     onChange={handleChange}
-                                    placeholder="you@campus.edu"
+                                    placeholder="you@jecrcu.edu.in"
                                     className="form-input w-full pl-10 pr-4 py-3 rounded-xl text-sm"
                                     autoComplete="email"
                                 />

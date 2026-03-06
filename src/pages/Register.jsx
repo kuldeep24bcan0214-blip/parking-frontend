@@ -48,7 +48,7 @@ const Register = () => {
 
     const fields = [
         { name: 'name', label: 'Full Name', type: 'text', icon: User, placeholder: 'John Doe' },
-        { name: 'email', label: 'Email Address', type: 'email', icon: Mail, placeholder: 'you@campus.edu' },
+        { name: 'email', label: 'Email Address', type: 'email', icon: Mail, placeholder: 'you@jecrcu.edu.in' },
         { name: 'phone', label: 'Phone Number', type: 'tel', icon: Phone, placeholder: '+91 9876543210' },
         { name: 'vehicleNumber', label: 'Vehicle Number', type: 'text', icon: Car, placeholder: 'MH 12 AB 1234' },
     ];

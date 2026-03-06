@@ -4,9 +4,9 @@ import { Car, Clock, CheckCircle, AlertTriangle, LogIn, LogOut, Eye, Filter } fr
 import toast from 'react-hot-toast';
 
 const mockBookings = [
-    { _id: 'b1', slot: { slotNumber: 'A-01', zone: 'A' }, user: { name: 'Rahul Sharma', email: 'rahul@campus.edu' }, vehicleNumber: 'MH 01 AB 1234', startTime: new Date(Date.now() - 3600000).toISOString(), status: 'active' },
-    { _id: 'b2', slot: { slotNumber: 'B-02', zone: 'B' }, user: { name: 'Priya Patel', email: 'priya@campus.edu' }, vehicleNumber: 'GJ 05 CD 5678', startTime: new Date(Date.now() - 7200000).toISOString(), status: 'checked_in' },
-    { _id: 'b3', slot: { slotNumber: 'C-01', zone: 'C' }, user: { name: 'Arjun Singh', email: 'arjun@campus.edu' }, vehicleNumber: 'DL 10 EF 9012', startTime: new Date(Date.now() - 1800000).toISOString(), status: 'active' },
+    { _id: 'b1', slot: { slotNumber: 'A-01', zone: 'A' }, user: { name: 'Rahul Sharma', email: 'rahul@jecrcu.edu.in' }, vehicleNumber: 'MH 01 AB 1234', startTime: new Date(Date.now() - 3600000).toISOString(), status: 'active' },
+    { _id: 'b2', slot: { slotNumber: 'B-02', zone: 'B' }, user: { name: 'Priya Patel', email: 'priya@jecrcu.edu.in' }, vehicleNumber: 'GJ 05 CD 5678', startTime: new Date(Date.now() - 7200000).toISOString(), status: 'checked_in' },
+    { _id: 'b3', slot: { slotNumber: 'C-01', zone: 'C' }, user: { name: 'Arjun Singh', email: 'arjun@jecrcu.edu.in' }, vehicleNumber: 'DL 10 EF 9012', startTime: new Date(Date.now() - 1800000).toISOString(), status: 'active' },
 ];
 const mockLogs = [
     { _id: 'l1', slot: { slotNumber: 'A-03' }, user: { name: 'Niti Kumar' }, vehicleNumber: 'MH 12 GH 3456', action: 'check_out', timestamp: new Date(Date.now() - 900000).toISOString(), duration: 3, amount: 60 },
